@@ -14,6 +14,15 @@
     </classes>
 </test>
 
+	<test name="GeomTest">
+        <classes>
+            <class name="calculator.Trigonometric.GeometricFactory"/>
+            <class name="calculator.Trigonometric.TgTest"/>
+            <class name="calculator.Trigonometric.CtgTest"/>
+            <class name="calculator.Trigonometric.SinTest"/>
+        </classes>
+    </test>
+	
     <test name="SumTest" parallel="tests" thread-count="4">
         <classes>
             <class name="calculator.Arithmetic.SumTest" />
@@ -59,13 +68,6 @@
         </classes>
     </test>
 
-    <test name="GeomTest">
-        <classes>
-            <class name="calculator.Trigonometric.GeometricFactory"/>
-            <class name="calculator.Trigonometric.TgTest"/>
-            <class name="calculator.Trigonometric.CtgTest"/>
-            <class name="calculator.Trigonometric.SinTest"/>
-        </classes>
-    </test>
+   
 </suite>
 
