@@ -13,7 +13,15 @@
             <artifactId>testng</artifactId>
             <version>RELEASE</version>
         </dependency>
-    </dependencies>
+   
+<dependency>
+            <groupId>calculator</groupId>
+            <artifactId>calculator</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/calculator-1.0.jar</systemPath>
+        </dependency>
+ </dependencies>
 
 
 </project>
