@@ -40,7 +40,7 @@ public class SumTest extends BaseCalculatorTest {
 
     @Test
     public void sumOverFlow(){
-        Assert.assertEquals(calculator.sum(Long.MIN_VALUE,1), "Overflow!");//т к нет условий, то предусмотрим такой вариант на случай переполнения
+        Assert.assertEquals(calculator.sum(Long.MIN_VALUE,1), "Overflow!");
     }
 
     @DataProvider(name = "sumLongDataProvider" )

@@ -22,7 +22,7 @@ public class SubTest extends BaseCalculatorTest {
 
     @Test()
     public void subOverFlow(){
-        Assert.assertEquals(calculator.sub(Long.MAX_VALUE,1), "Overflow!");//т к нет условий, то предусмотрим такой вариант на случай переполнения
+        Assert.assertEquals(calculator.sub(Long.MAX_VALUE,1), "Overflow!");
     }
 
     @DataProvider(name = "subDoubleDataProvider")

@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-// this method in Calculator class contains a mistake - tanh()
+
 public class CtgTest extends BaseCalculatorTest {
     private double a;
 

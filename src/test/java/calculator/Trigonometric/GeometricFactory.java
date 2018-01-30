@@ -6,7 +6,6 @@ public class GeometricFactory {
     @Factory
     public static Object [] GeomDataProvider(){
         return new Object[]{
-                //во всех тестах будет ошибка т к не предусмотрен ввод в радинах Math.toRadians()
                 new TgTest(0.0, Math.tanh(0.0)),
                 new TgTest(45.0, Math.tanh(45)),
                 new TgTest(180.0, Math.tanh(180)),
