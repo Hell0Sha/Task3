@@ -36,7 +36,6 @@ public class SumTest extends BaseCalculatorTest {
                 {1.7e+308, 1, 1.7e+308+1},
                 {1.7e+308, -1, 1.7e+308-1}
         };
-
     }
 
     @Test

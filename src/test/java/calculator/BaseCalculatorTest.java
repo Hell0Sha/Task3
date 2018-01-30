@@ -58,7 +58,7 @@ public class BaseCalculatorTest {
         System.out.println("Current time" + new Date(System.currentTimeMillis()));
     }
 
-    protected Object[] validator(String a, String b, String c) {
+    protected void validator(String a, String b, String c) {
         if (a.matches("\\d") && b.matches("\\d") && c.matches("\\d")) {
             long numA = Long.parseLong(a);
             long numB = Long.parseLong(b);
@@ -68,6 +68,5 @@ public class BaseCalculatorTest {
             double nb = Double.parseDouble(b);
             double nc = Double.parseDouble(c);
         }
-
     }
 }
