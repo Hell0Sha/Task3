@@ -29,6 +29,12 @@
         </classes>
     </test>
 
+    <test name="CosTest" parallel="tests" thread-count="4">
+        <classes>
+            <class name="calculator.Arithmetic.CosTest" />
+        </classes>
+    </test>
+
     <test name="SubTest">
         <classes>
             <class name="calculator.Arithmetic.SubTest"/>
